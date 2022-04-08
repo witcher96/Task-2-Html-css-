@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color:  #293F50;
+    
+
+}
+.header{
+    height: 480px;
+    width: 1000px;
+    background-color: #293F50;
+    margin-left: 280px;
+    
+    
+}
+.headertop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.headerleft{
+    display: inline;
+    width: 30%;
+    height: 150px;
+    border: 5px #648880 solid;
+    border-bottom: none;
+    border-left: none;
+    border-right:none;
+    font-size: 34px;
+    color: white; 
+}
+
+.headerright{
+    display:inline;
+    width: 70%;
+    height: 150px;
+    border: 5px red solid;
+    font-size: 20px;
+    color: white; 
+    
+}
+.list{
+    list-style-type:none;
+    text-decoration: none;
+    
+}
+.headerbody{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 24px;
+}
+.headerfooter{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+.buttonre{
+    width: 180px;
+    height: 70px;
+    background-color: #293F50;
+    color: white;
+    border-radius: 6px;
+    border: solid 1px white;
+    margin-left: 400px;
+}
+.body{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    
+    border: 1px solid black;
+}
+.bodymain{
+    width: 65%;
+    background-color: white;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 250px;
+}
+.cell{
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+    height: 500px;
+    background-color: red;
+    border: 5px black solid;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color:#293F50 ;
+    display: flex;
+    flex-direction: row;
+    
+}
+.footerleft{
+    width: 50%;
+    height: 90px;
+    padding-left: 50px;
+
+}
+.footerright{
+    width:50%;
+    height: 90px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #405C63;
+}
+.buttonre:hover{
+    background-color: white;
+    color: #648880;
+}
